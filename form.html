@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1>
+                Payment form
+            </h1>
+            <hr>
+            <p>
+                Name:
+                <input type="text" required>
+
+            </p>
+            <p>
+                <fieldset>
+                    <legend>gender</legend>
+                    male<input type="radio" name="gender" id="male" value=""> female<input type="radio" name="gender" id="female" value="">
+                </fieldset>
+            </p>
+            <p>
+                address:
+                <br>
+                <textarea placeholder="enter your address" name="address "></textarea>
+            </p>
+            <p>
+                e-mail:
+                <input type="email" name="email" id="email">
+            </p>
+            <p>
+                pincode:
+                <input type="number" name="pincode">
+            </p>
+            <h2>
+                payament information
+            </h2>
+            <p>
+                card:
+                <select name="card" id="card" required>
+                    <option value="">--select card type</option>
+                    <option value="master card">Master Card</option>
+                    <option value="visa">visa</option>
+                    <option value="rupay">rupay</option>
+                </select>
+            </p>
+
+        </form>
+    </div>
+    <a href="/index.html"><img src="https://th.bing.com/th/id/OIP.bJY_SKUKDJunuAHSqbEzNgHaDp?w=288&h=172&c=7&r=0&o=5&dpr=1.3&pid=1.7"height="50"></a>
+</body>
+</html>

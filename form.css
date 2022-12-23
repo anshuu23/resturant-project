@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 15px 30px;
+padding:8px;
+font-size: 17;
+}
+.container{
+    background-color:rgb(233, 233, 233);
+    padding: 15px 20px 15px 20px;
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 10px ;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='password'],
+input[type='date'],select,textarea
+{
+    width: 100%;
+    border: 1px solid white;
+    padding: 12px;
+}
+
