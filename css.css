@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body
 {
    text-align: center;
@@ -22,6 +26,7 @@ div{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+
   }
 {
     list-style-type: none;
@@ -73,6 +78,7 @@ header{
     background-size:cover;
      background-position:top center ; 
     background-attachment: fixed;
+    
     }
    a{
     color: aliceblue;
@@ -80,4 +86,37 @@ header{
    h1{
     color: aliceblue;
    }
+   main div ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin:0%;
+    padding: initial;
+    gap: 3px;
+   }
+   main div ul li{
+    background-color:aliceblue;
+
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
+    border-radius: 5px;
+    padding: 7px 3px;
+   }
+   main div ul li a{
+  color: rgb(218, 173, 113);
+}
+main img{
+    border-radius: 5px;
+
+}
+footer{
+    border-radius:unset;
+    border-style: unset;
+    font-size: 14px;
+    background-color:rgba(0, 0, 0, 0.83);
+    height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
