@@ -17,7 +17,7 @@
     <div>
         <ul id="12" >
     <li><a href="/resturant-project/menu.html">Menu</a></li>
-    <li><a href="/resturant-project/contact.html">contact us</a></li>
+    <li class="contactus"><a >contact us</a></li>
     <li><a href="/resturant-project/chef.html">Chef</a></li>
     <li><a href="/resturant-project/form.html">online order</a></li>
  
@@ -42,5 +42,13 @@
 <hr>
 <p>note:i dont own a cafe. this is a demo website of my work.</p>
     </footer>
+    <script>
+        var contact=document.querySelector(".contactus");
+        var fotterr=document.querySelector(".feedback")
+        contact.addEventListener("click",scrolldown);
+        function scrolldown(){
+            fotterr.scrollIntoView()
+        }
+    </script>
 </body>
 </html>
